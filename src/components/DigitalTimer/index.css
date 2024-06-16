@@ -1,0 +1,101 @@
+/* Write your CSS here */
+.main-bg {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timer-details-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+.timer-styling {
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+.timer-count {
+  color: #00d9f5;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+.timer-type {
+  font-weight: bold;
+  color: #111111;
+}
+.image {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.buttonEle {
+  background-color: transparent;
+  border-style: none;
+  display: flex;
+  align-items: center;
+}
+.para {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.button-elements {
+  display: flex;
+  justify-content: space-around;
+}
+.dec {
+  background-color: transparent;
+  border-style: none;
+  font-size: 30px;
+}
+.para-one {
+  background-image: linear-gradient(to left, #00d9f5, #cffcf1);
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #111111;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.increment {
+  display: flex;
+  align-items: center;
+  margin-top: -15px;
+}
+.increment-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para2 {
+  color: #111111;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .responsive {
+    display: flex;
+    align-items: center;
+  }
+  .timer-details-1 {
+    width: 450px;
+    height: 450px;
+  }
+}
